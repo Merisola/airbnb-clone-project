@@ -94,3 +94,25 @@ Clear role definitions help the team stay organized, accountable, and efficient.
 | **DevOps Engineers** | Handle CI/CD setup, manage cloud infrastructure and deployments, monitor server health, and ensure system reliability and performance.                  |
 | **Product Owner**    | Defines the feature set, aligns the product vision with stakeholder expectations, prioritizes the backlog, and ensures requirements are met.            |
 | **Scrum Master**     | Facilitates Agile ceremonies (stand-ups, retrospectives, sprint planning), removes blockers, and helps maintain team productivity and focus.            |
+
+
+## UI Component Patterns
+
+To ensure consistency and reusability across the application, we are planning to develop modular and responsive UI components. These components will follow best practices in design and will be used throughout the application to maintain a cohesive user interface.
+
+### Planned Components
+
+#### 1. Navbar
+- Contains the site logo, search bar, user navigation options, and a responsive hamburger menu for smaller screens.
+- Will be sticky at the top and adapt to mobile and desktop layouts.
+
+#### 2. Property Card
+- Displays a summary of a property: image, name, price, location, and rating.
+- Includes a favorite/like button.
+- Will be used in the Property Listing View to display multiple properties in a grid layout.
+
+#### 3. Footer
+- Contains links to site policies (privacy, terms), company information, and social media icons.
+- Designed to be minimal but informative, and responsive to all screen sizes.
+
+Each of these components will be built for reusability and maintainability, helping to speed up development and ensure visual consistency.
